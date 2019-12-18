@@ -24,7 +24,7 @@ public class UserTest extends BaseDriver {
 
   }
 	
-  @Test//(priority=1,description="登录")
+  @Test///(priority=1,description="登录")
   public void userMan() throws InterruptedException {
 		user.getHomePage();
 		Thread.sleep(2000);
